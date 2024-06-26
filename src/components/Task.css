@@ -1,0 +1,38 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  animation: insertTask 0.5s;
+  transition: background-color 0.3s;
+}
+.task.task--done {
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+.task button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.task button img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+@keyframes insertTask {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
