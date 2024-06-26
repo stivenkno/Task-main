@@ -11,5 +11,5 @@ Crea, marca y borra tareas, se agregaron animaciónes a la hora de crear una tar
 
 # Demostración en vivo
 
-Ingresa al siguiente enlace para ver una demostración del proyecto:
-
+La pagina se desplegó en el siguiente dominio:
+https://task-main.vercel.app/
